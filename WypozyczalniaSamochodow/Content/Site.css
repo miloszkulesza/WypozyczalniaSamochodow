@@ -1,0 +1,349 @@
+﻿body {
+    background-color: #eaeaea;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: #000000;
+    color: #FFFFFF;
+    z-index: 1;
+    display: table-cell;
+    float: left;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+    #menu ul {
+        position: absolute;
+        top: -20px;
+        float: right;
+        right: 5%;
+    }
+
+        #menu ul li {
+            display: table-cell;
+            list-style: none;
+            padding: 0 5px 0 5px;
+        }
+
+    #menu a {
+        text-decoration: none;
+        display: table-cell;
+        text-align: center;
+        background-color: #000000;
+        color: #FFFFFF;
+        padding: 0 5px 0 5px;
+        transition-timing-function: ease-out;
+        transition-duration: 250ms;
+        -webkit-transition-timing-function: ease-out;
+        -webkit-transition-duration: 250ms;
+        -moz-transition-timing-function: ease-out;
+        -moz-transition-duration: 250ms;
+    }
+
+        #menu a:hover {
+            background-color: #b9b9b9;
+            padding: 0 5px 0 5px;
+            transition-timing-function: ease-out;
+            transition-duration: 250ms;
+            -webkit-transition-timing-function: ease-out;
+            -webkit-transition-duration: 250ms;
+            -moz-transition-timing-function: ease-out;
+            -moz-transition-duration: 250ms;
+        }
+
+    #menu ul li img {
+        float: left;
+        display: block;
+        max-height: 50px;
+        width: auto;
+    }
+
+#logo ul {
+    position: absolute;
+    top: -24px;
+    left: -2%;
+    font-weight: bold;
+    font-size: 24px;
+    float: right;
+}
+
+    #logo ul li {
+        display: table-cell;
+    }
+
+        #logo ul li img {
+            float: left;
+            display: block;
+            max-height: 50px;
+            width: auto;
+        }
+
+#container {
+    position: relative;
+    top: 55px;
+    left: 12%;
+    width: 85%;
+    float: left;
+    margin-bottom: 50px;
+    padding: 0 20px 10px 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+#sidebar {
+    background-color: #404040;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 180px;
+    float: left;
+    height: 100%;
+}
+
+    #sidebar ul {
+        list-style: none;
+    }
+
+    #sidebar a {
+        display: block;
+        position: relative;
+        right: 40px;
+        text-decoration: none;
+        text-align: center;
+        color: #FFFFFF;
+        width: 180px;
+        height: 50px;
+        line-height: 50px;
+        transition-timing-function: ease-out;
+        transition-duration: 250ms;
+        -webkit-transition-timing-function: ease-out;
+        -webkit-transition-duration: 250ms;
+        -moz-transition-timing-function: ease-out;
+        -moz-transition-duration: 250ms;
+    }
+
+        #sidebar a:hover {
+            background-color: #b9b9b9;
+            transition-timing-function: ease-out;
+            transition-duration: 250ms;
+            -webkit-transition-timing-function: ease-out;
+            -webkit-transition-duration: 250ms;
+            -moz-transition-timing-function: ease-out;
+            -moz-transition-duration: 250ms;
+        }
+
+    #sidebar ul li img {
+        float: left;
+        display: block;
+        max-height: 50px;
+        width: auto;
+    }
+
+    #sidebar h3 {
+        color: #FFFFFF;
+    }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 580px;
+    height: 30px;
+    float: left;
+    background-color: #000000;
+    color: #FFFFFF;
+    line-height: 30px;
+    right: 580px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text-danger {
+    color: #ff0000;
+    display: inline-block;
+}
+
+.login-validation-message{
+    color: #ff0000;
+}
+
+#login-table{
+    font-size: 24px;
+}
+
+#nowosci-table td{
+    width: 150px;
+    height: 20px;
+    font-size: 24px;
+}
+
+#tabelakategorie td {
+    padding-right: 10px;
+}
+
+#tabelakategorie td a {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 100px;
+    border: none;
+    text-decoration: none;
+    color: #000000;
+    transform: scale(1,1);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    -webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+}
+
+#tabelakategorie a:hover {
+    background-color: #b9b9b9;
+    transform: scale(1.15,1.17);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    -webkit-transform: scale(1.15,1.17);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1.15,1.17);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+    position: relative;
+    z-index: 99;
+}
+
+    #WybierzAuto{
+        text-align: center;
+    }
+
+        #WybierzAuto ul li {
+            display: block;
+        }
+            #WybierzAuto ul li a {
+                display: inline-block;
+                padding-left: 10px;
+                padding-right: 10px;
+                font-size: 24px;
+                height: 80px;
+                line-height: 80px;
+                padding-bottom: 5px;
+                text-decoration: none;
+                color: #000000;
+                transform: scale(1,1);
+                transition-timing-function: ease-out;
+                transition-duration: 250ms;
+                -webkit-transform: scale(1,1);
+                -webkit-transition-timing-function: ease-out;
+                -webkit-transition-duration: 250ms;
+                -moz-transform: scale(1,1);
+                -moz-transition-timing-function: ease-out;
+                -moz-transition-duration: 250ms;
+            }
+
+                #WybierzAuto ul li a:hover {
+                    background-color: #b9b9b9;
+                    transform: scale(1.07,1.09);
+                    transition-timing-function: ease-out;
+                    transition-duration: 250ms;
+                    -webkit-transform: scale(1.07,1.09);
+                    -webkit-transition-timing-function: ease-out;
+                    -webkit-transition-duration: 250ms;
+                    -moz-transform: scale(1.07,1.09);
+                    -moz-transition-timing-function: ease-out;
+                    -moz-transition-duration: 250ms;
+                    position: relative;
+                    z-index: 99;
+                }
+
+#tabelaszczegoly{
+    padding-bottom: 30px;
+}
+
+#tabelaszczegoly tr td{
+    height: 50px;
+    width: 150px;
+    line-height: 50px;
+}
+
+#tabelaszczegoly .wlasciwoscauta{
+    width: 800px;
+}
+
+#tabelaszczegoly #opisauta {
+    line-height: 35px;
+    width: 800px;
+}
+
+#tabelaszczegoly #opislabel{
+    font-weight: bold;
+}
+
+#tabelaszczegoly .nazwawlasciwosci{
+    font-weight: bold;
+}
+
+#kartaprzyciski a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+    font-weight: bold;
+}
+
+    #kartaprzyciski a:hover {
+        background-color: #b9b9b9;
+        transition-timing-function: ease-out;
+        transition-duration: 250ms;
+        -webkit-transition-timing-function: ease-out;
+        -webkit-transition-duration: 250ms;
+        -moz-transition-timing-function: ease-out;
+        -moz-transition-duration: 250ms;
+    }
+
+#powrot a {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+    font-weight: bold;
+}
+
+    #powrot a:hover {
+        background-color: #b9b9b9;
+        transition-timing-function: ease-out;
+        transition-duration: 250ms;
+        -webkit-transition-timing-function: ease-out;
+        -webkit-transition-duration: 250ms;
+        -moz-transition-timing-function: ease-out;
+        -moz-transition-duration: 250ms;
+    }

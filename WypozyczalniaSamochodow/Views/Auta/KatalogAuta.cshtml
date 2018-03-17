@@ -1,0 +1,21 @@
+﻿@model IEnumerable<WypozyczalniaSamochodow.Models.Auto>
+@{ 
+    ViewBag.Title = "Katalog - Wybierz auto";
+}
+<h1>Katalog</h1>
+
+<div id="WybierzAuto">
+    <h3>Wybierz auto</h3>
+    <ul>
+        @foreach (var auto in Model)
+        {
+            <li>
+                <a href="@Url.Action("SzczegolyAuta", "Auta", new { autoid = auto.AutoId })">@auto.Marka @auto.Model, @auto.Silnik @auto.TypSilnika @auto.Moc KM, @auto.RokProdukcji rok, @auto.Cena PLN</a>
+            </li>
+        }
+    </ul>
+</div>
+<div id="powrot">
+    <a href="@Url.Action("Kategorie")">Powrót</a>
+</div>
+

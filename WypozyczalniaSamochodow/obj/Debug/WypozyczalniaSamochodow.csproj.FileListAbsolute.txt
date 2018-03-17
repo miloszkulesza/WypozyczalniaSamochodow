@@ -1,0 +1,365 @@
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\ApplicationInsights.config
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\WypozyczalniaSamochodow.dll.config
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\WypozyczalniaSamochodow.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\WypozyczalniaSamochodow.pdb
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Antlr3.Runtime.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.Web.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Newtonsoft.Json.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Helpers.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Mvc.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Optimization.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Razor.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.WebPages.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.WebPages.Razor.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\WebGrease.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Helpers.xml
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Mvc.xml
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Optimization.xml
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Razor.xml
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.WebPages.xml
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.WebPages.Razor.xml
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Antlr3.Runtime.pdb
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Newtonsoft.Json.xml
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.Web.xml
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\pl\System.Web.Helpers.resources.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\pl\System.Web.Mvc.resources.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\pl\System.Web.Optimization.resources.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\pl\System.Web.Razor.resources.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\pl\System.Web.WebPages.resources.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\pl\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\pl\System.Web.WebPages.Razor.resources.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.csprojResolveAssemblyReference.cache
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.csproj.CoreCompileInputs.cache
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.pdb
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\csc.exe
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\csc.exe.config
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\csc.rsp
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\csi.exe
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\csi.exe.config
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\csi.rsp
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.AppContext.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Console.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.IO.Compression.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Security.Claims.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.ValueTuple.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\vbc.exe
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\vbc.exe.config
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\vbc.rsp
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\VBCSCompiler.exe
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\EntityFramework.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\EntityFramework.SqlServer.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\EntityFramework.xml
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\EntityFramework.SqlServer.xml
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.csproj.CopyComplete
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.InitialCreate.resources
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.csproj.GenerateResource.cache
+C:\Users\Milosz\Documents\Visual Studio 2017\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.firstmigration.resources
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\ApplicationInsights.config
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\WypozyczalniaSamochodow.dll.config
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\WypozyczalniaSamochodow.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\WypozyczalniaSamochodow.pdb
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\csc.exe
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\csc.exe.config
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\csc.rsp
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\csi.exe
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\csi.exe.config
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\csi.rsp
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.AppContext.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Console.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.IO.Compression.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Security.Claims.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.ValueTuple.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\vbc.exe
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\vbc.exe.config
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\vbc.rsp
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\VBCSCompiler.exe
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Antlr3.Runtime.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\EntityFramework.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\EntityFramework.SqlServer.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.Web.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Newtonsoft.Json.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Helpers.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Mvc.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Optimization.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Razor.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.WebPages.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.WebPages.Razor.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\WebGrease.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Antlr3.Runtime.pdb
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\EntityFramework.xml
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\EntityFramework.SqlServer.xml
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.Web.xml
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Newtonsoft.Json.xml
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Helpers.xml
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Mvc.xml
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Razor.xml
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.WebPages.xml
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.WebPages.Razor.xml
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Optimization.xml
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\pl\System.Web.Helpers.resources.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\pl\System.Web.Mvc.resources.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\pl\System.Web.Razor.resources.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\pl\System.Web.WebPages.resources.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\pl\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\pl\System.Web.WebPages.Razor.resources.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\pl\System.Web.Optimization.resources.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.InitialCreate.resources
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.firstmigration.resources
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.csproj.GenerateResource.cache
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.csproj.CoreCompileInputs.cache
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.csproj.CopyComplete
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.pdb
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.datadodaniaAuto.resources
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\ApplicationInsights.config
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\WypozyczalniaSamochodow.dll.config
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\WypozyczalniaSamochodow.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\WypozyczalniaSamochodow.pdb
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\csc.exe
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\csc.exe.config
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\csc.rsp
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\csi.exe
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\csi.exe.config
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\csi.rsp
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.AppContext.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Console.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.IO.Compression.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Security.Claims.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.ValueTuple.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\vbc.exe
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\vbc.exe.config
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\vbc.rsp
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Antlr3.Runtime.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\EntityFramework.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\EntityFramework.SqlServer.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.Web.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Newtonsoft.Json.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Helpers.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Mvc.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Optimization.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Razor.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.WebPages.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\WebGrease.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Antlr3.Runtime.pdb
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\EntityFramework.xml
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\EntityFramework.SqlServer.xml
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.Web.xml
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Newtonsoft.Json.xml
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Helpers.xml
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Mvc.xml
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Razor.xml
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.WebPages.xml
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Optimization.xml
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\pl\System.Web.Helpers.resources.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\pl\System.Web.Mvc.resources.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\pl\System.Web.Razor.resources.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\pl\System.Web.WebPages.resources.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\pl\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\pl\System.Web.WebPages.Razor.resources.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\pl\System.Web.Optimization.resources.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.csprojResolveAssemblyReference.cache
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.InitialCreate.resources
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.firstmigration.resources
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.datadodaniaAuto.resources
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.csproj.GenerateResource.Cache
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.csproj.CoreCompileInputs.cache
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.pdb
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.moc_typ_opis_auta.resources
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.moc_typ_opis_auta.resources
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Owin.dll
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.xml
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.xml
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.DodanieAspNetIdentity.resources
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.csprojResolveAssemblyReference.cache
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Owin.dll
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.xml
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.xml
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.DodanieAspNetIdentity.resources
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.requireddaneklienta.resources
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.usunieemaildaneklienta.resources

@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" />
+    @System.Web.Optimization.Styles.Render("~/Content/css")
+</head>
+<body>
+    <div id="menu">
+        <div id="logo">
+            <ul>
+                <li><a href="@Url.Action("Index", "Home")"><img src="@Url.Content("~/Icons/appbar.home.png")" />Strona główna</a></li>
+            </ul>
+        </div>
+        <ul>
+            <li><a href="@Url.Action("About", "Home")"><img src="@Url.Content("~/Icons/appbar.information.png")" />O firmie</a></li>
+            <li><a href="@Url.Action("Offer", "Home")"><img src="@Url.Content("~/Icons/appbar.currency.dollar.png")" />Oferta</a></li>
+            <li><a href="@Url.Action("Contact", "Home")"><img src="@Url.Content("~/Icons/appbar.at.png")" />Kontakt</a></li>
+        </ul>
+    </div>
+    <div id="sidebar">
+        @Html.Partial("_LoginPartial")
+    </div>
+    <div id="container">
+        @RenderBody()
+    </div>
+    <footer>
+        Wypożyczalnia samochodów © 2018
+    </footer>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

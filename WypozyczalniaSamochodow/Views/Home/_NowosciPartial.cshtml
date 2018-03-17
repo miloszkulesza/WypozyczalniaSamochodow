@@ -1,0 +1,17 @@
+﻿@model WypozyczalniaSamochodow.ViewModels.HomeViewModel
+<center><h3>Ostatnio dodane auta</h3></center>
+<center>
+    <table id="nowosci-table">
+        @foreach (var nowosci in Model.Nowosci)
+        {
+            <tr>
+                <td>@nowosci.Marka</td>
+                <td>@nowosci.Model</td>
+                <td>@nowosci.Silnik</td>
+                <td>@nowosci.RokProdukcji</td>
+                <td>@nowosci.Kategoria.NazwaKategorii</td>
+                <td>@nowosci.Cena PLN</td>
+            </tr>
+        }
+    </table>
+</center>

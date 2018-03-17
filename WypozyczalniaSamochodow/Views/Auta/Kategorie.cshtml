@@ -1,0 +1,18 @@
+﻿@model IEnumerable<WypozyczalniaSamochodow.Models.Kategoria>
+    @{ 
+        ViewBag.Title = "Katalog - kategorie";
+    }
+<center>
+    <h1>Katalog</h1>
+    <h3>Kategorie samochodów</h3>
+        <table id="tabelakategorie">
+            <tr>
+                @foreach (var kategorie in Model)
+                {
+                    <td>
+                        <a href="@Url.Action("KatalogAuta", "Auta", new { kategoria = kategorie.NazwaKategorii })">@kategorie.NazwaKategorii</a>
+                    </td>
+                }
+            </tr>
+        </table>
+</center>

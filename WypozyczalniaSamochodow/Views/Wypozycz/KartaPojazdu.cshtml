@@ -1,0 +1,95 @@
+﻿@model WypozyczalniaSamochodow.Models.Auto
+@{
+    ViewBag.Title = "Karta pojazdu";
+}
+
+<center>
+    <h1>Karta pojazdu</h1>
+    <table id="tabelaszczegoly">
+            <tr>
+                <td class="nazwawlasciwosci">
+                    Marka:
+                </td>
+                <td class="wlasciwoscauta">
+                    @Model.Marka
+                </td>
+            </tr>
+            <tr>
+                <td class="nazwawlasciwosci">
+                    Model:
+                </td>
+                <td class="wlasciwoscauta">
+                    @Model.Model
+                </td>
+            </tr>
+            <tr>
+                <td class="nazwawlasciwosci">
+                    Pojemność silnika:
+                </td>
+                <td class="wlasciwoscauta">
+                    @Model.Silnik
+                </td>
+            </tr>
+            <tr>
+                <td class="nazwawlasciwosci">
+                    Typ silnika:
+                </td>
+                <td class="wlasciwoscauta">
+                    @Model.TypSilnika
+                </td>
+            </tr>
+            <tr>
+                <td class="nazwawlasciwosci">
+                    Moc:
+                </td>
+                <td class="wlasciwoscauta">
+                    @Model.Moc KM
+                </td>
+            </tr>
+            <tr>
+                <td class="nazwawlasciwosci">
+                    Rok produkcji:
+                </td>
+                <td class="wlasciwoscauta">
+                    @Model.RokProdukcji
+                </td>
+            </tr>
+            <tr>
+                <td class="nazwawlasciwosci">
+                    Kategoria auta:
+                </td>
+                <td class="wlasciwoscauta">
+                    @Model.Kategoria.NazwaKategorii
+                </td>
+            </tr>
+            <tr>
+                <td id="opislabel">
+                    Opis:
+                </td>
+                <td id="opisauta">
+                    @Model.Opis
+                </td>
+            </tr>
+            <tr>
+                <td class="nazwawlasciwosci">
+                    Cena:
+                </td>
+                <td class="wlasciwoscauta">
+                    @Model.Cena PLN za dobę
+                </td>
+            </tr>
+    </table>
+</center>
+
+<div id="kartaprzyciski">
+    <table>
+        <tr>
+            <td>
+                <a href="">Wypożycz</a>
+            </td>
+            <td>
+                <a href="@Url.Action("WyswietlAuta", "Wypozycz", new { kategoria = Model.Kategoria.NazwaKategorii.ToString() })">Powrót</a>
+            </td>
+        </tr>
+    </table>
+</div>
