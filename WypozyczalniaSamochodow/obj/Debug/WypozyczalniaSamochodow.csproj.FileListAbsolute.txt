@@ -363,3 +363,6 @@ C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Micr
 C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.DodanieAspNetIdentity.resources
 C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.requireddaneklienta.resources
 C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.usunieemaildaneklienta.resources
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.requireddaneklienta.resources
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.usunieemaildaneklienta.resources
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.pozycjawypozyczenia.resources

@@ -25,6 +25,6 @@ namespace WypozyczalniaSamochodow.Models
         public DateTime DataZlozenia { get; set; }
         [Required(ErrorMessage = "Podaj wartosc")]
         public decimal Wartosc { get; set; }
-        List<PozycjaZamowienia> PozycjeZamowienia { get; set; }
+        public List<PozycjaWypozyczenia> PozycjeWypozyczenia { get; set; }
     }
 }

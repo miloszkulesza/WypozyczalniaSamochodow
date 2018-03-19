@@ -9,5 +9,6 @@ namespace WypozyczalniaSamochodow.Infrastructure
     {
         public const string NowosciCacheKey = "NowosciCacheKey";
         public const string KategorieCacheKey = "KategorieCacheKey";
+        public const string KoszykSessionKey = "KoszykSessionKey";
     }
 }

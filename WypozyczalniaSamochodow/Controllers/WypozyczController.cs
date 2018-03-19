@@ -1,9 +1,12 @@
-﻿using System;
+﻿using Microsoft.AspNet.Identity;
+using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using WypozyczalniaSamochodow.DAL;
+using WypozyczalniaSamochodow.Models;
 
 namespace WypozyczalniaSamochodow.Controllers
 {
@@ -40,6 +43,23 @@ namespace WypozyczalniaSamochodow.Controllers
         {
             //do oprogramowania
             return View();
+        }
+
+        public ActionResult Wypozyczenia()
+        {
+            bool isAdmin = User.IsInRole("Admin");
+            ViewBag.UserIsAdmin = isAdmin;
+            IEnumerable<Wypozyczenie> wypozyczenia;
+            if(isAdmin)
+            {
+                wypozyczenia = db.Wypozyczenia.Include("PozycjaWypozyczenia").OrderByDescending(o => o.DataZlozenia).ToArray();
+            }
+            else
+            {
+                var userEmail = User.Identity.GetUserName();
+                wypozyczenia = db.Wypozyczenia.Where(o => o.Email == userEmail).Include("PozycjaWypozyczenia").OrderByDescending(o => o.DataZlozenia).ToArray();
+            }
+            return View(wypozyczenia);
         }
 
     }

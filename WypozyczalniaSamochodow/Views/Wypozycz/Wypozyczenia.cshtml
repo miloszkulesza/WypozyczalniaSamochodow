@@ -1,0 +1,18 @@
+﻿@model IEnumerable<WypozyczalniaSamochodow.Models.Wypozyczenie>
+@{
+    ViewBag.Title = "Wypożyczenia";
+}
+
+<h1>Wypozyczenia</h1>
+@if(Model.Any())
+{
+    <table>
+        @foreach(var wypozyczenie in Model)
+        {
+            
+            <tr>
+                <td></td>
+            </tr>
+        }
+    </table>
+}

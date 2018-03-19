@@ -29,7 +29,7 @@ namespace WypozyczalniaSamochodow.DAL
         public DbSet<Auto> Auta { get; set; }
         public DbSet<Kategoria> Kategorie { get; set; }
         public DbSet<Wypozyczenie> Wypozyczenia { get; set; }
-        public DbSet<PozycjaZamowienia> PozycjeZamowienia { get; set; }
+        public DbSet<PozycjaWypozyczenia> PozycjeZamowienia { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
