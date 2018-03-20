@@ -170,15 +170,15 @@ footer {
     display: inline-block;
 }
 
-.login-validation-message{
+.login-validation-message {
     color: #ff0000;
 }
 
-#login-table{
+#login-table {
     font-size: 24px;
 }
 
-#nowosci-table td{
+#nowosci-table td {
     width: 150px;
     height: 20px;
     font-size: 24px;
@@ -188,26 +188,26 @@ footer {
     padding-right: 10px;
 }
 
-#tabelakategorie td a {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    font-size: 20px;
-    text-align: center;
-    line-height: 100px;
-    border: none;
-    text-decoration: none;
-    color: #000000;
-    transform: scale(1,1);
-    transition-timing-function: ease-out;
-    transition-duration: 250ms;
-    -webkit-transform: scale(1,1);
-    -webkit-transition-timing-function: ease-out;
-    -webkit-transition-duration: 250ms;
-    -moz-transform: scale(1,1);
-    -moz-transition-timing-function: ease-out;
-    -moz-transition-duration: 250ms;
-}
+    #tabelakategorie td a {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        font-size: 20px;
+        text-align: center;
+        line-height: 100px;
+        border: none;
+        text-decoration: none;
+        color: #000000;
+        transform: scale(1,1);
+        transition-timing-function: ease-out;
+        transition-duration: 250ms;
+        -webkit-transform: scale(1,1);
+        -webkit-transition-timing-function: ease-out;
+        -webkit-transition-duration: 250ms;
+        -moz-transform: scale(1,1);
+        -moz-transition-timing-function: ease-out;
+        -moz-transition-duration: 250ms;
+    }
 
 #tabelakategorie a:hover {
     background-color: #b9b9b9;
@@ -224,75 +224,76 @@ footer {
     z-index: 99;
 }
 
-    #WybierzAuto{
-        text-align: center;
+#WybierzAuto {
+    text-align: center;
+}
+
+    #WybierzAuto ul li {
+        display: block;
     }
 
-        #WybierzAuto ul li {
-            display: block;
+        #WybierzAuto ul li a {
+            display: inline-block;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 24px;
+            height: 80px;
+            line-height: 80px;
+            padding-bottom: 5px;
+            text-decoration: none;
+            color: #000000;
+            transform: scale(1,1);
+            transition-timing-function: ease-out;
+            transition-duration: 250ms;
+            -webkit-transform: scale(1,1);
+            -webkit-transition-timing-function: ease-out;
+            -webkit-transition-duration: 250ms;
+            -moz-transform: scale(1,1);
+            -moz-transition-timing-function: ease-out;
+            -moz-transition-duration: 250ms;
         }
-            #WybierzAuto ul li a {
-                display: inline-block;
-                padding-left: 10px;
-                padding-right: 10px;
-                font-size: 24px;
-                height: 80px;
-                line-height: 80px;
-                padding-bottom: 5px;
-                text-decoration: none;
-                color: #000000;
-                transform: scale(1,1);
+
+            #WybierzAuto ul li a:hover {
+                background-color: #b9b9b9;
+                transform: scale(1.07,1.09);
                 transition-timing-function: ease-out;
                 transition-duration: 250ms;
-                -webkit-transform: scale(1,1);
+                -webkit-transform: scale(1.07,1.09);
                 -webkit-transition-timing-function: ease-out;
                 -webkit-transition-duration: 250ms;
-                -moz-transform: scale(1,1);
+                -moz-transform: scale(1.07,1.09);
                 -moz-transition-timing-function: ease-out;
                 -moz-transition-duration: 250ms;
+                position: relative;
+                z-index: 99;
             }
 
-                #WybierzAuto ul li a:hover {
-                    background-color: #b9b9b9;
-                    transform: scale(1.07,1.09);
-                    transition-timing-function: ease-out;
-                    transition-duration: 250ms;
-                    -webkit-transform: scale(1.07,1.09);
-                    -webkit-transition-timing-function: ease-out;
-                    -webkit-transition-duration: 250ms;
-                    -moz-transform: scale(1.07,1.09);
-                    -moz-transition-timing-function: ease-out;
-                    -moz-transition-duration: 250ms;
-                    position: relative;
-                    z-index: 99;
-                }
-
-#tabelaszczegoly{
+#tabelaszczegoly {
     padding-bottom: 30px;
 }
 
-#tabelaszczegoly tr td{
-    height: 50px;
-    width: 150px;
-    line-height: 50px;
-}
+    #tabelaszczegoly tr td {
+        height: 50px;
+        width: 150px;
+        line-height: 50px;
+    }
 
-#tabelaszczegoly .wlasciwoscauta{
-    width: 800px;
-}
+    #tabelaszczegoly .wlasciwoscauta {
+        width: 800px;
+    }
 
-#tabelaszczegoly #opisauta {
-    line-height: 35px;
-    width: 800px;
-}
+    #tabelaszczegoly #opisauta {
+        line-height: 35px;
+        width: 800px;
+    }
 
-#tabelaszczegoly #opislabel{
-    font-weight: bold;
-}
+    #tabelaszczegoly #opislabel {
+        font-weight: bold;
+    }
 
-#tabelaszczegoly .nazwawlasciwosci{
-    font-weight: bold;
-}
+    #tabelaszczegoly .nazwawlasciwosci {
+        font-weight: bold;
+    }
 
 #kartaprzyciski a {
     display: inline-block;
@@ -347,3 +348,7 @@ footer {
         -moz-transition-timing-function: ease-out;
         -moz-transition-duration: 250ms;
     }
+
+.hidden {
+    display: none;
+}

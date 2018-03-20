@@ -178,6 +178,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AutaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\KoszykController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\WypozyczController.cs" />
     <Compile Include="DAL\WypozyczeniaContext.cs" />
@@ -235,6 +236,8 @@
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\AccountViewModels.cs" />
     <Compile Include="ViewModels\HomeViewModel.cs" />
+    <Compile Include="ViewModels\KoszykUsuwanieViewModel.cs" />
+    <Compile Include="ViewModels\KoszykViewModel.cs" />
     <Compile Include="ViewModels\ManageViewModels.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -258,6 +261,7 @@
     <Content Include="Icons\appbar.camera.flash.off.png" />
     <Content Include="Icons\appbar.camera.flash.png" />
     <Content Include="Icons\appbar.currency.dollar.png" />
+    <Content Include="Icons\appbar.delete.png" />
     <Content Include="Icons\appbar.home.png" />
     <Content Include="Icons\appbar.information.png" />
     <Content Include="Icons\appbar.people.png" />
@@ -310,6 +314,7 @@
     <Content Include="Views\Manage\Index.cshtml" />
     <Content Include="Views\Account\RegisterSuccess.cshtml" />
     <Content Include="Views\Wypozycz\Wypozyczenia.cshtml" />
+    <Content Include="Views\Koszyk\Index.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

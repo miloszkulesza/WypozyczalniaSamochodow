@@ -69,6 +69,13 @@ namespace WypozyczalniaSamochodow.Infrastructure
             return koszyk.Sum(k => k.Wartosc);
         }
 
+        public int IloscPozycjiKoszyka()
+        {
+            var koszyk = PobierzKoszyk();
+            int ilosc = koszyk.Count();
+            return ilosc;
+        }
+
         public Wypozyczenie UtworzWypozyczenie(Wypozyczenie noweWypozyczenie, string userEmail)
         {
             var koszyk = PobierzKoszyk();

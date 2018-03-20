@@ -1,0 +1,42 @@
+﻿@model WypozyczalniaSamochodow.ViewModels.KoszykViewModel
+@using WypozyczalniaSamochodow.Infrastructure
+@{
+    ViewBag.Title = "Twój koszyk";
+}
+<center>
+    <h1>Twój koszyk</h1>
+
+    <table id="koszyk">
+        @foreach (var pozycja in Model.PozycjeKoszyka)
+        {
+            <tr id="wiersz-koszyka-@pozycja.Auto.AutoId">
+                <td>
+                    @pozycja.Auto.Marka @pozycja.Auto.Model, @pozycja.Auto.Silnik @pozycja.Auto.Moc KM @pozycja.Auto.TypSilnika, @pozycja.Auto.RokProdukcji rok, @pozycja.Auto.Cena PLN
+                </td>
+                <td id="koszyk-usun">
+                    <a class="usunAuto" data-id="@pozycja.Auto.AutoId" href="@Url.Action("UsunZKoszyka", "Koszyk", new { autoId = pozycja.Auto.AutoId })"><img src="@Url.Content("~/Icons/appbar.delete.png")" /></a>
+                </td>
+            </tr>
+        }
+        <tr id="koszyk-empty-message" @if (Model.PozycjeKoszyka != null && Model.PozycjeKoszyka.Count > 0) { <text> class="hidden" </text> }>
+            <td>Koszyk jest pusty</td>
+        </tr>
+    </table>
+    <div id="kartaprzyciski">
+        <table>
+            <tr>
+                <td>
+                    Wartość: <span id="calkowita-wartosc">@String.Format("{0:0.##}", Model.WartoscCalkowita)</span> PLN
+                </td>
+            </tr>
+            @if (Model.WartoscCalkowita > 0)
+            {
+                <tr>
+                    <td>
+                        <a id="wypozycz" href="">Wypożycz</a>
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</center>

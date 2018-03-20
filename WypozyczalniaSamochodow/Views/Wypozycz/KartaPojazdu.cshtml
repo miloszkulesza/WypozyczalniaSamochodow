@@ -85,7 +85,7 @@
     <table>
         <tr>
             <td>
-                <a href="">Dodaj do koszyka</a>
+                <a href="@Url.Action("DodajDoKoszyka", "Koszyk", new { id = Model.AutoId })">Do koszyka</a>
             </td>
             <td>
                 <a href="@Url.Action("WyswietlAuta", "Wypozycz", new { kategoria = Model.Kategoria.NazwaKategorii.ToString() })">Powrót</a>
