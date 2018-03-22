@@ -4,6 +4,9 @@ using System.Data.Entity;
 using WypozyczalniaSamochodow.Models;
 using WypozyczalniaSamochodow.Migrations;
 using System.Data.Entity.Migrations;
+using Microsoft.AspNet.Identity.EntityFramework;
+using Microsoft.AspNet.Identity;
+
 namespace WypozyczalniaSamochodow.DAL
 {
     public class WypozyczeniaInitializer : MigrateDatabaseToLatestVersion<WypozyczeniaContext, Configuration>
@@ -53,6 +56,36 @@ namespace WypozyczalniaSamochodow.DAL
             };
             auta.ForEach(a => context.Auta.AddOrUpdate(a));
             context.SaveChanges();
+        }
+
+        public static void SeedUzytkownicy(WypozyczeniaContext db)
+        {
+            var userManager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(db));
+            var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(db));
+
+            const string name = "admin@wypozyczalnia.pl";
+            const string password = "P@ssw0rd";
+            const string roleName = "Admin";
+
+            var user = userManager.FindByName(name);
+            if (user == null)
+            {
+                user = new ApplicationUser { UserName = name, Email = name, DaneKlienta = new DaneKlienta { Imie = "Jan", Nazwisko = "Kowalski", Adres = "Wesoła 5", Miasto = "Lublin", Telefon = "555444222" } };
+                var result = userManager.Create(user, password);
+            }
+ 
+            var role = roleManager.FindByName(roleName);
+            if (role == null)
+            {
+                role = new IdentityRole(roleName);
+                var roleresult = roleManager.Create(role);
+            }
+
+            var rolesForUser = userManager.GetRoles(user.Id);
+            if (!rolesForUser.Contains(role.Name))
+            {
+                var result = userManager.AddToRole(user.Id, role.Name);
+            }
         }
     }
 }

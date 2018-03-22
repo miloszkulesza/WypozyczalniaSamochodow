@@ -11,7 +11,7 @@
         {
             <tr id="wiersz-koszyka-@pozycja.Auto.AutoId">
                 <td>
-                    @pozycja.Auto.Marka @pozycja.Auto.Model, @pozycja.Auto.Silnik @pozycja.Auto.Moc KM @pozycja.Auto.TypSilnika, @pozycja.Auto.RokProdukcji rok, @pozycja.Auto.Cena PLN
+                    @pozycja.Auto.Marka @pozycja.Auto.Model, @pozycja.Auto.Silnik @pozycja.Auto.Moc KM @pozycja.Auto.TypSilnika, @pozycja.Auto.RokProdukcji rok, @pozycja.Auto.Cena PLN za dobę
                 </td>
                 <td id="koszyk-usun">
                     <a class="usunAuto" data-id="@pozycja.Auto.AutoId" href="@Url.Action("UsunZKoszyka", "Koszyk", new { autoId = pozycja.Auto.AutoId })"><img src="@Url.Content("~/Icons/appbar.delete.png")" /></a>
@@ -26,14 +26,14 @@
         <table>
             <tr>
                 <td>
-                    Wartość: <span id="calkowita-wartosc">@String.Format("{0:0.##}", Model.WartoscCalkowita)</span> PLN
+                    Wartość: <span id="calkowita-wartosc">@String.Format("{0:0.##}", Model.WartoscCalkowita)</span> PLN za dobę
                 </td>
             </tr>
             @if (Model.WartoscCalkowita > 0)
             {
                 <tr>
                     <td>
-                        <a id="wypozycz" href="">Wypożycz</a>
+                        <a id="wypozycz" href="@Url.Action("Wypozycz", "Wypozycz")">Wypożycz</a>
                     </td>
                 </tr>
             }

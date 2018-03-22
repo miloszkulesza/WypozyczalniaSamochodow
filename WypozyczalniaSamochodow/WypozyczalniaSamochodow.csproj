@@ -224,6 +224,14 @@
     <Compile Include="Migrations\201803192201231_pozycjawypozyczenia.Designer.cs">
       <DependentUpon>201803192201231_pozycjawypozyczenia.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201803221100027_wypozyczenia.cs" />
+    <Compile Include="Migrations\201803221100027_wypozyczenia.Designer.cs">
+      <DependentUpon>201803221100027_wypozyczenia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803221207258_datazwrotu.cs" />
+    <Compile Include="Migrations\201803221207258_datazwrotu.Designer.cs">
+      <DependentUpon>201803221207258_datazwrotu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Auto.cs" />
     <Compile Include="Models\DaneKlienta.cs" />
@@ -315,6 +323,8 @@
     <Content Include="Views\Account\RegisterSuccess.cshtml" />
     <Content Include="Views\Wypozycz\Wypozyczenia.cshtml" />
     <Content Include="Views\Koszyk\Index.cshtml" />
+    <Content Include="Views\Wypozycz\Wypozycz.cshtml" />
+    <Content Include="Views\Wypozycz\PotwierdzenieWypozyczenia.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -349,6 +359,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201803192201231_pozycjawypozyczenia.resx">
       <DependentUpon>201803192201231_pozycjawypozyczenia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803221100027_wypozyczenia.resx">
+      <DependentUpon>201803221100027_wypozyczenia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803221207258_datazwrotu.resx">
+      <DependentUpon>201803221207258_datazwrotu.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

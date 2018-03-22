@@ -80,6 +80,7 @@ namespace WypozyczalniaSamochodow.Infrastructure
         {
             var koszyk = PobierzKoszyk();
             noweWypozyczenie.DataZlozenia = DateTime.Now;
+            noweWypozyczenie.DataZwrotu = noweWypozyczenie.DataZlozenia.AddDays(noweWypozyczenie.iloscDni);
             noweWypozyczenie.Email = userEmail;
             db.Wypozyczenia.Add(noweWypozyczenie);
             if (noweWypozyczenie.PozycjeWypozyczenia == null)
@@ -90,10 +91,10 @@ namespace WypozyczalniaSamochodow.Infrastructure
                 var nowaPozycja = new PozycjaWypozyczenia()
                 {
                     AutoId = pozycja.Auto.AutoId,
-                    WartoscZamowienia = pozycja.Auto.Cena,
-
+                    WartoscZamowienia = pozycja.Auto.Cena * noweWypozyczenie.iloscDni
                 };
-                wartoscKoszyka += pozycja.Auto.Cena;
+                db.Auta.Where(a => a.AutoId == nowaPozycja.AutoId).Single().Wypozyczony = true;
+                wartoscKoszyka += pozycja.Auto.Cena * noweWypozyczenie.iloscDni;
                 noweWypozyczenie.PozycjeWypozyczenia.Add(nowaPozycja);
             }
             noweWypozyczenie.Wartosc = wartoscKoszyka;

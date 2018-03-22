@@ -1,18 +1,64 @@
 ﻿@model IEnumerable<WypozyczalniaSamochodow.Models.Wypozyczenie>
 @{
-    ViewBag.Title = "Wypożyczenia";
+    ViewBag.Title = "Moje wypożyczenia";
 }
-
-<h1>Wypozyczenia</h1>
-@if(Model.Any())
-{
-    <table>
-        @foreach(var wypozyczenie in Model)
-        {
-            
-            <tr>
-                <td></td>
+<center>
+    <h1>Moje wypożyczenia</h1>
+    @if (Model.Any())
+    {
+        <table id="tabela-wypozyczenia">
+            <tr style="font-weight: bold;">
+                <td>Marka</td>
+                <td>Model</td>
+                <td>Pojemność silnika</td>
+                <td>Moc</td>
+                <td>Typ silnika</td>
+                <td>Rok produkcji</td>
+                <td>Data wypożyczenia</td>
+                <td>Data zwrotu</td>
+                <td>Do zapłaty</td>
+                <td>Stan</td>
+                @if(ViewBag.UserIsAdmin)
+                {
+                    <td>Dane klienta</td>
+                }
             </tr>
-        }
-    </table>
-}
+            @foreach (var wypozyczenie in Model)
+            {
+                <tr>
+                    @foreach (var auto in wypozyczenie.PozycjeWypozyczenia)
+                    {
+                    <tr>
+                        <td>@auto.auto.Marka</td>
+                        <td>@auto.auto.Model</td>
+                        <td>@auto.auto.Silnik</td>
+                        <td>@auto.auto.Moc KM</td>
+                        <td>@auto.auto.TypSilnika</td>
+                        <td>@auto.auto.RokProdukcji rok</td>
+                        <td>@auto.wypozyczenie.DataZlozenia.ToString("dd.MM.yyyy")</td>
+                        <td>@auto.wypozyczenie.DataZwrotu.ToString("dd.MM.yyyy")</td>
+                        <td>@auto.WartoscZamowienia PLN</td>
+                        @if (auto.auto.Wypozyczony)
+                        {
+                            <td>Wypożyczony</td>
+                        }
+                        else
+                        {
+                            <td>Oddany</td>
+                        }
+                        @if (ViewBag.UserIsAdmin)
+                        { 
+                            <td>@auto.wypozyczenie.Imie @auto.wypozyczenie.Nazwisko @auto.wypozyczenie.Telefon</td>
+                            if (auto.auto.Wypozyczony)
+                            {
+                                <td id="powrot"><a href="@Url.Action("ZwrotSamochodu", "Wypozycz", new { autoid = auto.AutoId })">Zwrot</a></td>
+
+                            }
+                        }
+                    </tr>
+                }
+                    </tr>
+                }
+        </table>
+    }
+</center>

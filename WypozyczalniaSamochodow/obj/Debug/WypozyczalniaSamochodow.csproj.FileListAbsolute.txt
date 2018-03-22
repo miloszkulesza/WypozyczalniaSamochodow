@@ -366,3 +366,5 @@ C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debu
 C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.requireddaneklienta.resources
 C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.usunieemaildaneklienta.resources
 C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.pozycjawypozyczenia.resources
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.wypozyczenia.resources
+C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.datazwrotu.resources

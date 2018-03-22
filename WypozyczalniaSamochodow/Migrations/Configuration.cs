@@ -17,6 +17,7 @@ namespace WypozyczalniaSamochodow.Migrations
         protected override void Seed(WypozyczalniaSamochodow.DAL.WypozyczeniaContext context)
         {
             WypozyczeniaInitializer.SeedAutaData(context);
+            WypozyczeniaInitializer.SeedUzytkownicy(context);
             //  This method will be called after migrating to the latest version.
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method 

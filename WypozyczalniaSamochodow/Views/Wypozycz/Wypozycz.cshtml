@@ -1,0 +1,53 @@
+﻿@model WypozyczalniaSamochodow.Models.Wypozyczenie
+@{
+    ViewBag.Title = "Wypożycz";
+}
+<center>
+    <h1>Wypożycz</h1>
+    <h2>Potwierdź swoje dane</h2>
+    @using (Html.BeginForm("Wypozycz", "Wypozycz"))
+    {
+        @Html.AntiForgeryToken()
+    <table>
+        <tr>
+            <td>@Html.LabelFor(o => o.Imie, "Imię:")</td>
+            <td>@Html.TextBoxFor(o => o.Imie)</td>
+            <td>@Html.ValidationMessageFor(o => o.Imie)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(o => o.Nazwisko, "Nazwisko")</td>
+            <td>@Html.TextBoxFor(o => o.Nazwisko)</td>
+            <td>@Html.ValidationMessageFor(o => o.Nazwisko)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(o => o.Adres, "Adres")</td>
+            <td>@Html.TextBoxFor(o => o.Adres)</td>
+            <td>@Html.ValidationMessageFor(o => o.Adres)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(o => o.Miasto, "Miasto")</td>
+            <td>@Html.TextBoxFor(o => o.Miasto)</td>
+            <td>@Html.ValidationMessageFor(o => o.Miasto)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(o => o.Telefon, "Numer telefonu")</td>
+            <td>@Html.TextBoxFor(o => o.Telefon)</td>
+            <td>@Html.ValidationMessageFor(o => o.Telefon)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(o =>o.Email, "Email")</td>
+            <td>@Html.TextBoxFor(o => o.Email)</td>
+            <td>@Html.ValidationMessageFor(o => o.Email)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(o => o.iloscDni, "Ilość dni")</td>
+            <td>@Html.TextBoxFor(o => o.iloscDni)</td>
+            <td>@Html.ValidationMessageFor(o => o.iloscDni)</td>
+        </tr>
+    </table>
+        @Html.ValidationSummary()
+        <div id="powrot">
+            <input type="submit" style="" value="Potwierdź" />
+        </div>
+    }
+</center>
