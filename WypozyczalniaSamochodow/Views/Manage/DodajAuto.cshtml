@@ -1,0 +1,71 @@
+﻿@model WypozyczalniaSamochodow.ViewModels.EdytujAutoViewModel
+@{
+    ViewBag.Title = "DodajAuto";
+}
+
+<center>
+    <h1>Dodaj Auto</h1>
+    @if (Model.Potwierdzenie.HasValue && Model.Potwierdzenie.Value)
+    {
+        <h2>Udało się wprowadzić zmiany</h2>
+    }
+    @using (Html.BeginForm("DodajAuto", "Manage", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        @Html.HiddenFor(o => o.Auto.AutoId)
+        @Html.HiddenFor(o => o.Auto.DataDodania)
+        @Html.HiddenFor(o => o.Auto.Wypozyczony)
+
+        <table>
+            <tr>
+                <td>@Html.LabelFor(o => o.Auto.Marka, "Marka: ")</td>
+                <td>@Html.TextBoxFor(o => o.Auto.Marka)</td>
+                <td style="color: #ff0000">@Html.ValidationMessageFor(o => o.Auto.Marka)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(o => o.Auto.Model, "Model: ")</td>
+                <td>@Html.TextBoxFor(o => o.Auto.Model)</td>
+                <td style="color: #ff0000">@Html.ValidationMessageFor(o => o.Auto.Model)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(o => o.Auto.RokProdukcji, "Rok produkcji: ")</td>
+                <td>@Html.TextBoxFor(o => o.Auto.RokProdukcji)</td>
+                <td style="color: #ff0000">@Html.ValidationMessageFor(o => o.Auto.RokProdukcji)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(o => o.Auto.Kategoria.NazwaKategorii, "Kategoria: ")</td>
+                <td>@Html.DropDownListFor(o => o.Auto.KategoriaId, new SelectList(Model.Kategorie, "KategoriaId", "NazwaKategorii", Model.Kategorie.First().KategoriaId))</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(o => o.Auto.Silnik, "Pojemność silnika: ")</td>
+                <td>@Html.TextBoxFor(o => o.Auto.Silnik)</td>
+                <td style="color: #ff0000">@Html.ValidationMessageFor(o => o.Auto.Silnik)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(o => o.Auto.TypSilnika, "Typ silnika: ")</td>
+                <td>@Html.TextBoxFor(o => o.Auto.TypSilnika)</td>
+                <td style="color: #ff0000">@Html.ValidationMessageFor(o => o.Auto.TypSilnika)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(o => o.Auto.Moc, "Moc(KM): ")</td>
+                <td>@Html.TextBoxFor(o => o.Auto.Moc)</td>
+                <td style="color: #ff0000">@Html.ValidationMessageFor(o => o.Auto.Moc)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(o => o.Auto.Opis, "Opis: ")</td>
+                <td>@Html.TextAreaFor(o => o.Auto.Opis)</td>
+                <td style="color: #ff0000">@Html.ValidationMessageFor(o => o.Auto.Opis)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(o => o.Auto.Cena, "Cena(doba): ")</td>
+                <td>@Html.TextBoxFor(o => o.Auto.Cena)</td>
+                <td style="color: #ff0000">@Html.ValidationMessageFor(o => o.Auto.Cena)</td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Zapisz" /></td>
+            </tr>
+        </table>
+    }
+</center>

@@ -4,11 +4,11 @@
 }
 
 <center>
-<h1>Katalog</h1>
+    <h1>Katalog</h1>
     <table id="tabelaszczegoly">
         <tr>
             <td class="nazwawlasciwosci">
-                Marka: 
+                Marka:
             </td>
             <td class="wlasciwoscauta">
                 @Model.Marka
@@ -16,7 +16,7 @@
         </tr>
         <tr>
             <td class="nazwawlasciwosci">
-                Model: 
+                Model:
             </td>
             <td class="wlasciwoscauta">
                 @Model.Model
@@ -24,7 +24,7 @@
         </tr>
         <tr>
             <td class="nazwawlasciwosci">
-                Pojemność silnika: 
+                Pojemność silnika:
             </td>
             <td class="wlasciwoscauta">
                 @Model.Silnik
@@ -80,8 +80,15 @@
         </tr>
     </table>
 </center>
-
-<div id="powrot">
-    <a href="@Url.Action("KatalogAuta", "Auta", new { kategoria = Model.Kategoria.NazwaKategorii.ToString() })">Powrót</a>
-</div>
-
+    <div id="kartaprzyciski">
+        <table>
+            <tr>
+                <td><a href="@Url.Action("KatalogAuta", "Auta", new { kategoria = Model.Kategoria.NazwaKategorii.ToString() })">Powrót</a></td>
+                @if (User.IsInRole("Admin"))
+                {
+                    <td><a href="@Url.Action("DodajAuto", "Manage", new { autoId = Model.AutoId })">Edytuj</a></td>
+                    <td><a href="@Url.Action("UsunAuto", "Manage", new { autoId = Model.AutoId })">Usuń</a></td>
+                }
+            </tr>
+        </table>
+    </div>

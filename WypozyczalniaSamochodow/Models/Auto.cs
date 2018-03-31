@@ -28,6 +28,7 @@ namespace WypozyczalniaSamochodow.Models
         public int Moc { get; set; }
         [Required(ErrorMessage = "Podaj typ silnika")]
         public string TypSilnika { get; set; }
+        [Required(ErrorMessage = "Wstaw opis")]
         public string Opis { get; set; }
         public virtual Kategoria Kategoria { get; set; }
     }

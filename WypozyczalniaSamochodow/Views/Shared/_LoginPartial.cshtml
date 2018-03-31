@@ -5,22 +5,37 @@
     {
         @Html.AntiForgeryToken()
         <center><h3>@User.Identity.GetUserName()</h3></center>
-            <ul>
-                <li><a href="@Url.Action("Index", "Manage")"><img src="@Url.Content("~/Icons/appbar.people.png")" />Moje konto</a></li>
+        <ul>
+            <li><a href="@Url.Action("Index", "Manage")"><img src="@Url.Content("~/Icons/appbar.people.png")" />Moje konto</a></li>
+            @if (User.IsInRole("Admin"))
+            {
+                <li><a href="@Url.Action("Wypozyczenia", "Wypozycz")"><img src="@Url.Content("~/Icons/appbar.calendar.dollar.png")" />Wypożyczenia</a></li>
+            }
+            else
+            {
                 <li><a href="@Url.Action("Wypozyczenia", "Wypozycz")"><img src="@Url.Content("~/Icons/appbar.calendar.dollar.png")" />Moje wypożyczenia</a></li>
+            }
+            @if (!User.IsInRole("Admin"))
+            {
                 <li><a href="@Url.Action("Index", "Koszyk")"><img src="@Url.Content("~/Icons/appbar.shopping.png")" />Koszyk</a></li>
                 <li><a href="@Url.Action("WyswietlKategorie", "Wypozycz")"><img src="@Url.Content("~/Icons/appbar.add.png")" />Wybierz auto</a></li>
-                <li><a href="javascript:document.getElementById('logoutForm').submit()"><img src="@Url.Content("~/Icons/appbar.camera.flash.off.png")" />Wyloguj</a></li>
-            </ul>
+            }
+            @if (User.IsInRole("Admin"))
+            {
+                <li><a href="@Url.Action("DodajAuto", "Manage")"><img src="@Url.Content("~/Icons/appbar.transit.car.png")" />Dodaj auto</a></li>
+                <li><a href="@Url.Action("Kategorie", "Auta")"><img src="@Url.Content("~/Icons/appbar.edit.png")" />Edytuj auto</a></li>
+            }
+            <li><a href="javascript:document.getElementById('logoutForm').submit()"><img src="@Url.Content("~/Icons/appbar.camera.flash.off.png")" />Wyloguj</a></li>
+        </ul>
     }
 }
 else
 {
-            <ul>
-                <li><a href="@Url.Action("Login", new { controller = "Account" })"><img src="@Url.Content("~/Icons/appbar.camera.flash.png")" />Logowanie</a></li>
-                <br />
-                <li><a href="@Url.Action("Register", new { controller = "Account" })"><img src="@Url.Content("~/Icons/appbar.add.multiple.png")" />Rejestracja</a></li>
-                <br />
-                <li><a href="@Url.Action("Kategorie", "Auta")"><img src="@Url.Content("~/Icons/appbar.transit.car.png")" />Katalog</a></li>
-            </ul>
+    <ul>
+        <li><a href="@Url.Action("Login", new { controller = "Account" })"><img src="@Url.Content("~/Icons/appbar.camera.flash.png")" />Logowanie</a></li>
+        <br />
+        <li><a href="@Url.Action("Register", new { controller = "Account" })"><img src="@Url.Content("~/Icons/appbar.add.multiple.png")" />Rejestracja</a></li>
+        <br />
+        <li><a href="@Url.Action("Kategorie", "Auta")"><img src="@Url.Content("~/Icons/appbar.transit.car.png")" />Katalog</a></li>
+    </ul>
 }

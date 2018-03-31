@@ -4,6 +4,10 @@
 }
 <center>
     <h1>Moje wypożyczenia</h1>
+    @if(!Model.Any())
+    {
+        <h2>Brak wypożyczeń</h2>
+    }
     @if (Model.Any())
     {
         <table id="tabela-wypozyczenia">

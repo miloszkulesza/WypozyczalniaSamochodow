@@ -232,6 +232,10 @@
     <Compile Include="Migrations\201803221207258_datazwrotu.Designer.cs">
       <DependentUpon>201803221207258_datazwrotu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201803312036413_requiredOpis.cs" />
+    <Compile Include="Migrations\201803312036413_requiredOpis.Designer.cs">
+      <DependentUpon>201803312036413_requiredOpis.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Auto.cs" />
     <Compile Include="Models\DaneKlienta.cs" />
@@ -243,6 +247,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\AccountViewModels.cs" />
+    <Compile Include="ViewModels\EdytujAutoViewModel.cs" />
     <Compile Include="ViewModels\HomeViewModel.cs" />
     <Compile Include="ViewModels\KoszykUsuwanieViewModel.cs" />
     <Compile Include="ViewModels\KoszykViewModel.cs" />
@@ -270,6 +275,7 @@
     <Content Include="Icons\appbar.camera.flash.png" />
     <Content Include="Icons\appbar.currency.dollar.png" />
     <Content Include="Icons\appbar.delete.png" />
+    <Content Include="Icons\appbar.edit.png" />
     <Content Include="Icons\appbar.home.png" />
     <Content Include="Icons\appbar.information.png" />
     <Content Include="Icons\appbar.people.png" />
@@ -325,6 +331,7 @@
     <Content Include="Views\Koszyk\Index.cshtml" />
     <Content Include="Views\Wypozycz\Wypozycz.cshtml" />
     <Content Include="Views\Wypozycz\PotwierdzenieWypozyczenia.cshtml" />
+    <Content Include="Views\Manage\DodajAuto.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -365,6 +372,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201803221207258_datazwrotu.resx">
       <DependentUpon>201803221207258_datazwrotu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803312036413_requiredOpis.resx">
+      <DependentUpon>201803312036413_requiredOpis.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

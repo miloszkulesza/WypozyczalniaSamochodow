@@ -3,11 +3,13 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
+using WypozyczalniaSamochodow.DAL;
 using WypozyczalniaSamochodow.Models;
 using WypozyczalniaSamochodow.ViewModels;
 
@@ -18,6 +20,7 @@ namespace WypozyczalniaSamochodow.Controllers
     {
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
+        private WypozyczeniaContext db = new WypozyczeniaContext();
 
         public ManageController()
         {
@@ -134,6 +137,65 @@ namespace WypozyczalniaSamochodow.Controllers
             }
 
             return RedirectToAction("Index");
+        }
+
+        [Authorize(Roles = "Admin")]
+        public ActionResult DodajAuto(int? autoId, bool? potwierdzenie)
+        {
+            Auto auto;
+            if(autoId.HasValue)
+            {
+                ViewBag.EditMode = true;
+                auto = db.Auta.Find(autoId);
+            }
+            else
+            {
+                ViewBag.EditMode = false;
+                auto = new Auto();
+            }
+            var result = new EdytujAutoViewModel();
+            result.Kategorie = db.Kategorie.ToList();
+            result.Auto = auto;
+            result.Potwierdzenie = potwierdzenie;
+            return View(result);
+        }
+
+        [HttpPost]
+        [Authorize(Roles = "Admin")]
+        public ActionResult DodajAuto(EdytujAutoViewModel model)
+        {
+            if (model.Auto.AutoId > 0)
+            {
+                db.Entry(model.Auto).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("DodajAuto", new { potwierdzenie = true });
+            }
+            else
+            {
+                if (ModelState.IsValid)
+                {
+                    model.Auto.DataDodania = DateTime.Now;
+                    model.Auto.Wypozyczony = false;
+                    db.Entry(model.Auto).State = EntityState.Added;
+                    db.SaveChanges();
+                    return RedirectToAction("DodajAuto", new { potwierdzenie = true });
+                }
+                else
+                {
+                    var kategorie = db.Kategorie.ToList();
+                    model.Kategorie = kategorie;
+                    return View(model);
+                }
+            }
+        }
+
+        [Authorize(Roles = "Admin")]
+        public ActionResult UsunAuto(int autoId)
+        {
+            var auto = db.Auta.Find(autoId);
+            db.Auta.Remove(auto);
+            db.SaveChanges();
+            return RedirectToAction("DodajAuto", new { potwierdzenie = true });
         }
 
         private IAuthenticationManager AuthenticationManager
