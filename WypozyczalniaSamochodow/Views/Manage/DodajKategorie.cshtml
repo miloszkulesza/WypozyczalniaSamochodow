@@ -1,0 +1,21 @@
+﻿@model WypozyczalniaSamochodow.Models.Kategoria
+@{ 
+    ViewBag.Title = "Dodaj auto";
+}
+
+<center>
+    <h1>Dodaj kategorię</h1>
+    @using (Html.BeginForm("DodajKategorie", "Manage", FormMethod.Post))
+    {
+        <table>
+            <tr>
+                <td>@Html.LabelFor(o => o.NazwaKategorii, "Nazwa kategorii")</td>
+                <td>@Html.TextBoxFor(o => o.NazwaKategorii)</td>
+                <td style="color: #ff0000;">@Html.ValidationMessageFor(o => o.NazwaKategorii)</td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Dodaj" /></td>
+            </tr>
+        </table>
+    }
+</center>

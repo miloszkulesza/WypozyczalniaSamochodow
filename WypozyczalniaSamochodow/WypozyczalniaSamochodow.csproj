@@ -278,6 +278,7 @@
     <Content Include="Icons\appbar.edit.png" />
     <Content Include="Icons\appbar.home.png" />
     <Content Include="Icons\appbar.information.png" />
+    <Content Include="Icons\appbar.minus.png" />
     <Content Include="Icons\appbar.people.png" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -332,6 +333,9 @@
     <Content Include="Views\Wypozycz\Wypozycz.cshtml" />
     <Content Include="Views\Wypozycz\PotwierdzenieWypozyczenia.cshtml" />
     <Content Include="Views\Manage\DodajAuto.cshtml" />
+    <Content Include="Views\Manage\DodajKategorie.cshtml" />
+    <Content Include="Views\Manage\Potwierdzenie.cshtml" />
+    <Content Include="Views\Manage\UsunKategorie.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

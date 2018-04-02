@@ -30,7 +30,7 @@ namespace WypozyczalniaSamochodow.Controllers
             else
             {
                 nowosci = db.Auta.Where(a => !a.Wypozyczony).OrderByDescending(a => a.DataDodania).Take(3).ToList();
-                cache.Set(Consts.NowosciCacheKey, nowosci, 60);
+                cache.Set(Consts.NowosciCacheKey, nowosci, 1);
             }
             var vm = new HomeViewModel()
             {

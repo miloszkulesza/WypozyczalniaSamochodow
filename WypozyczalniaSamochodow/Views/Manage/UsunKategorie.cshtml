@@ -1,0 +1,17 @@
+﻿@model IEnumerable<WypozyczalniaSamochodow.Models.Kategoria>
+@{
+    ViewBag.Title = "Usuń kategorie";
+}
+<center>
+    <h1>Usuń Kategorie</h1>
+    <table id="tabelakategorie">
+        <tr>
+            @foreach (var kategorie in Model)
+            {
+                <td>
+                    <a href="@Url.Action("UsunWybrana", "Manage", new { kategoriaId = kategorie.KategoriaId })">@kategorie.NazwaKategorii</a>
+                </td>
+            }
+        </tr>
+    </table>
+</center>

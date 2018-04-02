@@ -198,6 +198,45 @@ namespace WypozyczalniaSamochodow.Controllers
             return RedirectToAction("DodajAuto", new { potwierdzenie = true });
         }
 
+        [Authorize(Roles = "Admin")]
+        public ActionResult DodajKategorie()
+        {
+            Kategoria kategoria = new Kategoria();
+            return View(kategoria);
+        }
+
+        [HttpPost]
+        [Authorize(Roles = "Admin")]
+        public ActionResult DodajKategorie(Kategoria nowa)
+        {
+            if(ModelState.IsValid)
+            {
+                db.Entry(nowa).State = EntityState.Added;
+                db.SaveChanges();
+                return View("Potwierdzenie");
+            }
+            else
+            {
+                return View(nowa);
+            }
+        }
+
+        [Authorize(Roles = "Admin")]
+        public ActionResult UsunKategorie()
+        {
+            var kategorie = db.Kategorie.ToList();
+            return View(kategorie);
+        }
+
+        [Authorize(Roles = "Admin")]
+        public ActionResult UsunWybrana(int kategoriaId)
+        {
+            var doUsuniecia = db.Kategorie.Find(kategoriaId);
+            db.Kategorie.Remove(doUsuniecia);
+            db.SaveChanges();
+            return View("Potwierdzenie");
+        }
+
         private IAuthenticationManager AuthenticationManager
         {
             get

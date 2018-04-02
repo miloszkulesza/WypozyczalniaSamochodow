@@ -24,7 +24,7 @@ namespace WypozyczalniaSamochodow.Controllers
             else
             {
                 kategorie = db.Kategorie.ToList();
-                cache.Set(Consts.KategorieCacheKey, kategorie, 60);
+                cache.Set(Consts.KategorieCacheKey, kategorie, 1);
             }
             return View(kategorie);
         }
