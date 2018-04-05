@@ -55,7 +55,7 @@
             </tr>
             <tr>
                 <td>@Html.LabelFor(o => o.Auto.Opis, "Opis: ")</td>
-                <td>@Html.TextAreaFor(o => o.Auto.Opis)</td>
+                <td>@Html.TextAreaFor(o => o.Auto.Opis, new { @cols = 50, @rows = 10 })</td>
                 <td style="color: #ff0000">@Html.ValidationMessageFor(o => o.Auto.Opis)</td>
             </tr>
             <tr>

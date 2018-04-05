@@ -369,3 +369,7 @@ C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\De
 C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.wypozyczenia.resources
 C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.datazwrotu.resources
 C:\Users\Milosz\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.requiredOpis.resources
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.pozycjawypozyczenia.resources
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.wypozyczenia.resources
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.datazwrotu.resources
+C:\Users\Ania\Downloads\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Debug\WypozyczalniaSamochodow.Migrations.requiredOpis.resources
